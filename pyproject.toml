@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "Clicker"
+version = "0.1.0"
+description = "Simple clicker"
+authors = ["Erik Belak <erik.belak@gmail.com>"]
+
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pynput = "^1.7.6"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^7.0.0"
+
+[build-system]
+requires = ["poetry>=1.0"]
+build-backend = "poetry.masonry.api"
