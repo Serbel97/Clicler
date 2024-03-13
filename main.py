@@ -5,6 +5,7 @@ from pynput.keyboard import Listener, KeyCode
 
 
 TOGGLE_KEY = KeyCode.from_char("t")
+FREQUENCY = 10 # how many times per second you want an event to occur
 
 clicking = False
 interval = 1
